@@ -113,22 +113,19 @@ def backward(parameters, cache, label):
 
 params = initializeParams(784, 100, 50, 10)
 loss = []
-x = 1
 for i in range(trainImages2.shape[0] - 2):
     cache = forward(trainImages2[i], params)
     params = backward(params, cache, trainLabels[i])
     loss.append(calculateLoss(trainLabels[i], cache["a3"]))
-    x += 1
 
-print("x = ", x)
 sum = 0
 
 def show_image(image, title):
     plt.imshow(image, cmap='gray')
     plt.title(title)
-    plt.axis('off')  # Hide the axis
+    plt.axis('off')
     plt.show(block=False)
-    plt.waitforbuttonpress()  # Wait for a button press
+    plt.waitforbuttonpress()
     plt.close()
 
 for i in range(len(testImages2)):
@@ -142,10 +139,11 @@ for i in range(len(testImages2)):
 
 
 print(sum / 100)
+dir = "" #File directory
 
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/w1.txt", params["w1"])
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/b1.txt", params["b1"])
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/w2.txt", params["w2"])
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/b2.txt", params["b2"])
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/w3.txt", params["w3"])
-np.savetxt("C:/Users/lenovo/Desktop/MNIST/b3.txt", params["b3"])
+np.savetxt(dir + "w1.txt", params["w1"])
+np.savetxt(dir + "b1.txt", params["b1"])
+np.savetxt(dir + "w2.txt", params["w2"])
+np.savetxt(dir + "b2.txt", params["b2"])
+np.savetxt(dir + "w3.txt", params["w3"])
+np.savetxt(dir + "b3.txt", params["b3"])

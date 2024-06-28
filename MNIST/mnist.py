@@ -39,7 +39,7 @@ def forward(x, parameters):
             "a3" : a3 }
     return cache
 
-dir = "C:/Users/lenovo/Desktop/MNIST/"
+dir = "" #File directory
 
 b1 = np.loadtxt(dir + "b1.txt")
 w1 = np.loadtxt(dir + "w1.txt").reshape((100, 784))
@@ -58,9 +58,9 @@ im = im.convert("L")
 def show_image(image, title):
     plt.imshow(image, cmap='gray')
     plt.title(title)
-    plt.axis('off')  # Hide the axis
+    plt.axis('off') 
     plt.show(block=False)
-    plt.waitforbuttonpress()  # Wait for a button press
+    plt.waitforbuttonpress()
     plt.close()
 
 flatMatrix = np.array(im).flatten()
