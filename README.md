@@ -11,8 +11,8 @@ A beginner’s playground for core programming concepts like control flow, lists
 
 - [Battleship](https://github.com/somanst/Foundational_Projects/tree/main/Python/Battleship): A grid-based two-player naval guessing game. Implements ship placement, turn-based attacks, input validation, and file I/O to simulate the classic Battleship strategy game.
 - [Patient Data Control (Doctor’s Aid)](https://github.com/somanst/Foundational_Projects/tree/main/Python/Patient%20Data%20Control): A rule-based decision support system for clinicians that reads structured input files and calculates risk assessments using disease prevalence and diagnosis accuracy.
-- [Personality Classification](https://github.com/somanst/Foundational_Projects/tree/main/Python/PersonalityClassification): [Pending update – PDF not processed.]
-- [Ticket System](https://github.com/somanst/Foundational_Projects/tree/main/Python/TicketSystem): [Pending update – PDF not processed.]
+- [Personality Classification](https://github.com/somanst/Foundational_Projects/tree/main/Python/PersonalityClassification): A rule-based personality classification system that reads user survey data and classifies users into predefined personality types using KNN.
+- [Ticket System](https://github.com/somanst/Foundational_Projects/tree/main/Python/TicketSystem): A simulation of a basic ticketing/reservation system that manages seating availability, reservations, and cancellations using structured I/O operations.
 
 ---
 
@@ -22,7 +22,7 @@ Hands-on application of OOP principles (inheritance, encapsulation, polymorphism
 - [Ball Game](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Ball%20Game): A terminal-based tile game where a player controls a white ball that collects colored balls while navigating walls and avoiding holes. Implements object interaction, file parsing, and movement logic.
 - [Duck Hunt](https://github.com/somanst/Foundational_Projects/tree/main/OOP/DuckHunt): A simplified version of the classic Duck Hunt game built using JavaFX. Players use mouse interaction to shoot moving targets within a GUI, enforcing event-driven logic and user input handling.
 - [Library System](https://github.com/somanst/Foundational_Projects/tree/main/OOP/LibrarySystem): A rule-based library manager for academics and students, supporting borrowing, returning, deadline extensions, and special book rules via a command system.
-- [Smart Home System](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Smart%20Home%20System): [Pending update – PDF not processed.]
+- [Smart Home System](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Smart%20Home%20System): Implements an OOP-based smart home automation simulation in Java. Devices like smart lamps, plugs, and cameras can be added, controlled, and scheduled over time using commands while respecting OOP principles like encapsulation, inheritance, and polymorphism.
 
 ---
 
@@ -32,7 +32,7 @@ C++ projects built around stacks, queues, trees, and spatial data structures wit
 - [Image Processor](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/ImageProcessor): Matrix and image-based processing system using convolution, sharpening, and edge detection. Also includes message encoding/decoding within image data.
 - [Network Application](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/NetworkApplication): Simulates a layered network stack (Application → Physical) in C++, including custom protocols, routing logic, and peer-to-peer communication using stacks and queues.
 - [Space Trees](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/SpaceTrees): Uses Binary Search Trees, Red-Black Trees, and KD-Trees to map space sectors in a science fiction narrative to aid in planetary classification and a rescue mission.
-- [Testris](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/Testris): [Pending update – PDF not processed.]
+- [Testris](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/Testris): A Tetris-inspired game implemented in C++ using dynamic memory allocation and multi-level linked lists. Features include grid rendering, block rotation, gravity mode, and score tracking based on classic Tetris logic.
 
 ---
 
@@ -51,7 +51,8 @@ Introductory ML projects involving both traditional classifiers and convolutiona
 
 - [Movie Review Classification](https://github.com/somanst/Foundational_Projects/tree/main/MachineLearning/Movie_Review_Classification): Text classification using Naive Bayes to predict the sentiment of movie reviews. Includes both theoretical probability tasks and an implementation of a basic NLP pipeline.
 - [Skin Lesion Image Classification](https://github.com/somanst/Foundational_Projects/tree/main/MachineLearning/Sikn_Lesion_Image_Classification): Image classification using a custom Convolutional Neural Network (CNN) to distinguish benign vs. malignant skin lesions. Includes forward/backward propagation and custom training.
-- [Telecommunication Classification](https://github.com/somanst/Foundational_Projects/tree/main/MachineLearning/Telecommunicaton_Classification): [Pending update – PDF not processed.]
+- [Telecommunication Classification](https://github.com/somanst/Foundational_Projects/tree/main/MachineLearning/Telecommunicaton_Classification): Classification of telecom customers into usage categories using k-Nearest Neighbors (KNN) and weighted KNN. Includes experiments with feature scaling, parameter tuning, and comparative analysis of distance metrics.
+
 
 ---
 
