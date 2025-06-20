@@ -16,7 +16,7 @@ A beginner’s playground for core programming concepts like control flow, lists
 
 ---
 
-### 2. 🧱 Object-Oriented Programming (OOP)
+### 2. 🧱 Object-Oriented Programming (OOP) [Java]
 Hands-on application of OOP principles (inheritance, encapsulation, polymorphism) via simulations, GUIs, and management systems in Java.
 
 - [Ball Game](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Ball_Game): A terminal-based tile game where a player controls a white ball that collects colored balls while navigating walls and avoiding holes. Implements object interaction, file parsing, and movement logic.
@@ -26,7 +26,7 @@ Hands-on application of OOP principles (inheritance, encapsulation, polymorphism
 
 ---
 
-### 3. 📊 Data Structures
+### 3. 📊 Data Structures [C++]
 C++ projects built around stacks, queues, trees, and spatial data structures with real-world-inspired narratives.
 
 - [Image Processor](https://github.com/somanst/Foundational_Projects/tree/main/DataStructures/ImageProcessor): Matrix and image-based processing system using convolution, sharpening, and edge detection. Also includes message encoding/decoding within image data.
@@ -36,7 +36,7 @@ C++ projects built around stacks, queues, trees, and spatial data structures wit
 
 ---
 
-### 4. 📐 Algorithms
+### 4. 📐 Algorithms [Java]
 Focused on the analysis, comparison, and application of core algorithmic paradigms including sorting, searching, scheduling, and pathfinding.
 
 - [Algorithm Analysis](https://github.com/somanst/Foundational_Projects/tree/main/Algorithms/AlgorithmAnalysis): A comparative study of sorting (Insertion, Merge, Counting) and searching (Linear, Binary) algorithms over varied datasets (sorted, reverse, random), focusing on empirical time and space complexities.
