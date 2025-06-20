@@ -1,6 +1,6 @@
 # 🧠 Foundational Projects
 
-This repository contains core projects from foundational courses in Computer and AI Engineering. Each course folder includes multiple hands-on assignments with problem statements (PDFs) and full code solutions — covering everything from Python programming to data science and machine learning.
+This repository contains core projects from foundational courses in Computer and AI Engineering. Each course folder includes multiple hands-on assignments with problem statements (PDFs) and full code solutions — covering everything from basic programming using Python, Java, and C++ to data science and machine learning.
 
 ---
 
@@ -20,9 +20,9 @@ A beginner’s playground for core programming concepts like control flow, lists
 Hands-on application of OOP principles (inheritance, encapsulation, polymorphism) via simulations, GUIs, and management systems in Java.
 
 - [Ball Game](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Ball_Game): A terminal-based tile game where a player controls a white ball that collects colored balls while navigating walls and avoiding holes. Implements object interaction, file parsing, and movement logic.
-- [Duck Hunt](https://github.com/somanst/Foundational_Projects/tree/main/OOP/DuckHunt): A simplified version of the classic Duck Hunt game built using JavaFX. Players use mouse interaction to shoot moving targets within a GUI, enforcing event-driven logic and user input handling.
 - [Library System](https://github.com/somanst/Foundational_Projects/tree/main/OOP/LibrarySystem): A rule-based library manager for academics and students, supporting borrowing, returning, deadline extensions, and special book rules via a command system.
 - [Smart Home System](https://github.com/somanst/Foundational_Projects/tree/main/OOP/Smart_Home_System): Implements an OOP-based smart home automation simulation in Java. Devices like smart lamps, plugs, and cameras can be added, controlled, and scheduled over time using commands while respecting OOP principles like encapsulation, inheritance, and polymorphism.
+- [Duck Hunt](https://github.com/somanst/Foundational_Projects/tree/main/OOP/DuckHunt): A simplified version of the classic Duck Hunt game built using JavaFX. Players use mouse interaction to shoot moving targets within a GUI, enforcing event-driven logic and user input handling.
 
 ---
 
@@ -63,8 +63,8 @@ Full Jupyter notebook projects that walk through data preprocessing, exploratory
 - [California Housing Regression](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/CaliforniaHousingRegression): A regression model built to predict house prices using California census data. Workflow includes visualization, feature engineering, and evaluation with R² scores.
 - [Data Exploration and SQL](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/DataExplorationandSQL): Exploratory data analysis project where queries are written in SQL-like syntax using Python libraries (e.g., pandasql). Includes custom aggregations and filtering techniques.
 - [Mall Customer Segmentation](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/MallCustomerSegmentation): Uses KMeans clustering to segment mall customers by spending behavior and demographics. Evaluates clusters using silhouette scores and elbow method.
-- [Movie Reviews Project](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/MovieReviewsProject): Natural language processing (NLP) pipeline for sentiment analysis of movie reviews. Involves tokenization, vectorization (TF-IDF), and classification.
 - [Travel Agency & Titanic](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/TravelAgency%26Titanic): Two-part notebook. First, customer churn prediction for a fictional travel agency. Second, classic Titanic survival prediction using decision trees and logistic regression.
+- [Movie Reviews Project](https://github.com/somanst/Foundational_Projects/tree/main/DataSceience/MovieReviewsProject): Course final project, which is a Natural language processing (NLP) pipeline for sentiment analysis of movie reviews. Involves tokenization, vectorization (TF-IDF), word embedding, and classification.
 
 ---
 
